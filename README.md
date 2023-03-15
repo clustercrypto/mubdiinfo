@@ -1,4 +1,4 @@
-mubdIinfo
+mubdiinfo
 =========
 
 JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc.
@@ -8,16 +8,16 @@ Works in Node.js and the browser.
 Installation
 ------------
 
-    npm i mubdIinfo
+    npm i mubdiinfo
 
 
 Usage
 -----
 
 ```js
-var mubdIinfo = require('mubdIinfo')
+var mubdiinfo = require('mubdiinfo')
 
-console.dir(mubdIinfo('LTC')) //use LTC-TEST for testnet
+console.dir(mubdiinfo('LTC')) //use LTC-TEST for testnet
 // =>
 /*
 { versions:
@@ -31,11 +31,11 @@ console.dir(mubdIinfo('LTC')) //use LTC-TEST for testnet
 Could also:
 
 ```js
-var litecoin = mubdIinfo.litecoin.main
-var litecoinTest = mubdIinfo.litecoin.test
+var litecoin = mubdiinfo.litecoin.main
+var litecoinTest = mubdiinfo.litecoin.test
 ```
 
-Useful to use in conjunction with [mubdIinfo](https://github.com/panchadijaya/coinkey) and [coinstring](https://github.com/panchadijaya/coinstring).
+Useful to use in conjunction with [mubdiinfo](https://github.com/panchadijaya/coinkey) and [coinstring](https://github.com/panchadijaya/coinstring).
 
 
 Want to Use With Bitcore or bitcoinjs-lib?
@@ -44,16 +44,16 @@ Want to Use With Bitcore or bitcoinjs-lib?
 **bitcoinjs-lib example:**
 
 ```js
-var mubdIinfo = require('mubdIinfo')
-var bitcoin = mubdIinfo.bitcoin.main
+var mubdiinfo = require('mubdiinfo')
+var bitcoin = mubdiinfo.bitcoin.main
 var bitcoinBitcoinJSLib = bitcoin.toBitcoinJS()
 ```
 
 **Bitcore example:**
 
 ```js
-var mubdIinfo = require('mubdIinfo')
-var bitcoin = mubdIinfo.bitcoin.main
+var mubdiinfo = require('mubdiinfo')
+var bitcoin = mubdiinfo.bitcoin.main
 var bitcoinBitcoreLib = bitcoin.toBitcore()
 ```
 
