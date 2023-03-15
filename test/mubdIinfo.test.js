@@ -1,7 +1,7 @@
 var test = require('tape')
 var ci = require('../')
 
-test('+ mubdIinfo()', function (t) {
+test('+ mubdiinfo()', function (t) {
   t.test('iterate all coins', function (t) {
     var coins = [
       'bch',
