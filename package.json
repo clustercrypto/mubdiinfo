@@ -1,5 +1,5 @@
 {
-  "name": "mubdIinfo",
+  "name": "mubdiinfo",
   "version": "5.3.0",
   "description": "JavaScript component for crypto currency specific information.",
   "license": "MIT",
@@ -30,10 +30,10 @@
     "tape": "^4.8.0"
   },
   "repository": {
-    "url": "https://github.com/panchadijaya/mubdIinfo",
+    "url": "https://github.com/panchadijaya/mubdiinfo",
     "type": "git"
   },
-  "main": "./lib/mubdIinfo.js",
+  "main": "./lib/mubdiinfo.js",
   "files": [
     "lib"
   ],
