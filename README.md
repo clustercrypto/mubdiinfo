@@ -8,7 +8,13 @@ Works in Node.js and the browser.
 Installation
 ------------
 
-    npm i mubdiinfo
+$ git clone https://github.com/clustercrypto/mubdiinfo.git
+
+$ cd mubdiinfo
+
+$ npm install
+
+$ npm i mubdiinfo
 
 
 Usage
@@ -31,12 +37,15 @@ console.dir(mubdiinfo('LTC')) //use LTC-TEST for testnet
 Could also:
 
 ```js
-var litecoin = mubdiinfo.litecoin.main
-var litecoinTest = mubdiinfo.litecoin.test
+var litecoin = mubdiinfo.litecoin.main  // for mainnet
+var litecoinTest = mubdiinfo.litecoin.test  // for testnet
 ```
 
-Useful to use in conjunction with [mubdiinfo](https://github.com/panchadijaya/coinkey) and [coinstring](https://github.com/panchadijaya/coinstring).
-
+Useful to use in conjunction with :
+[mubdiinfo](https://github.com/clustercrypto/mubdiinfo)
+[eckey](https://github.com/clustercrypto/eckey)
+[coinkey](https://github.com/clustercrypto/coinkey)
+[coinstring](https://github.com/clustercrypto/coinstring).
 
 Want to Use With Bitcore or bitcoinjs-lib?
 -----------------------------------------
@@ -63,7 +72,13 @@ Pull requests?
 
 Follow the canonical example:
 
-https://github.com/panchadijaya/mubdIinfo/lib/coins/btc.js
+   https://github.com/clustercrypto/mubdIinfo/lib/coins/btc.js
+
+   https://github.com/clustercrypto/mubdIinfo/lib/coins/ltc.js
+   
+   https://github.com/clustercrypto/mubdIinfo/lib/coins/doge.js
+   
+   https://github.com/clustercrypto/mubdIinfo/lib/coins/gold.js
 
 
 License
