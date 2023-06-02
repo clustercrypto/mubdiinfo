@@ -1,21 +1,16 @@
 mubdiinfo
 =========
-
 JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc.
 Works in Node.js and the browser.
 
 
 Installation
 ------------
-
 $ git clone https://github.com/clustercrypto/mubdiinfo.git
-
 $ cd mubdiinfo
-
 $ npm install
-
 $ npm i mubdiinfo
-
+$ npm i coinkey
 
 Usage
 -----
@@ -35,7 +30,6 @@ console.dir(mubdiinfo('LTC')) //use LTC-TEST for testnet
 ```
 
 Could also:
-
 ```js
 var litecoin = mubdiinfo.litecoin.main  // for mainnet
 var litecoinTest = mubdiinfo.litecoin.test  // for testnet
@@ -49,7 +43,6 @@ Useful to use in conjunction with :
 
 Want to Use With Bitcore or bitcoinjs-lib?
 -----------------------------------------
-
 **bitcoinjs-lib example:**
 
 ```js
@@ -69,19 +62,15 @@ var bitcoinBitcoreLib = bitcoin.toBitcore()
 
 Pull requests?
 --------------
-
 Follow the canonical example:
 
    https://github.com/clustercrypto/mubdIinfo/lib/coins/btc.js
-
    https://github.com/clustercrypto/mubdIinfo/lib/coins/ltc.js
-   
    https://github.com/clustercrypto/mubdIinfo/lib/coins/doge.js
-   
    https://github.com/clustercrypto/mubdIinfo/lib/coins/gold.js
 
 
 License
 -------
-
 MIT
+# GenerateAddress-Goldcoin
