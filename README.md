@@ -1,12 +1,12 @@
-mubdiinfo
-=========
+GenerateAddress-Goldcoin
+========================
 JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc.
 Works in Node.js and the browser.
 
 
 Installation
 ------------
-$ git clone https://github.com/clustercrypto/mubdiinfo.git
+$ git clone https://github.com/clustercrypto/GenerateAddress-Goldcoin.git
 $ cd mubdiinfo
 $ npm install
 $ npm i mubdiinfo
@@ -64,13 +64,14 @@ Pull requests?
 --------------
 Follow the canonical example:
 
-   https://github.com/clustercrypto/mubdIinfo/lib/coins/btc.js
-   https://github.com/clustercrypto/mubdIinfo/lib/coins/ltc.js
-   https://github.com/clustercrypto/mubdIinfo/lib/coins/doge.js
-   https://github.com/clustercrypto/mubdIinfo/lib/coins/gold.js
+   https://github.com/clustercrypto/GenerateAddress-Goldcoin/lib/coins/btc.js
+   https://github.com/clustercrypto/GenerateAddress-Goldcoin/lib/coins/ltc.js
+   https://github.com/clustercrypto/GenerateAddress-Goldcoin/lib/coins/doge.js
+   https://github.com/clustercrypto/GenerateAddress-Goldcoin/lib/coins/gold.js
 
 
 License
 -------
 MIT
+# GenerateAddress-Goldcoin
 # GenerateAddress-Goldcoin
